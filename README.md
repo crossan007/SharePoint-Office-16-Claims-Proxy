@@ -1,8 +1,6 @@
 # Setting up
 
-0. Install Virtual Box and Vagrant.
-
-1.  Edit vagrant/bootstrap.sh.  Uncomment the line for generating the certificate (or supply your own cert)
+1. Install Virtual Box and Vagrant.
 
 2.  Edit vagrant/portal.conf.  
 
