@@ -11,10 +11,11 @@
     Replace all instances fo portal.example.com with your SharePoint URL.
 
 4.  Open an administrative command line to the directory you downloaded this repository. 
+    ![Step4](https://github.com/crossan007/SharePoint-Office-16-Claims-Proxy/blob/master/step3.PNG)
   
-    Run ```vagrant up```
+    * Run ```vagrant up```
 
-    4-b) This will configure a VM with NGINX and the proxy configuration.  The NIC will be bridged to the adapter of your current machine, and it will service incoming requests on this IP.
+    * This will configure a VM with NGINX and the proxy configuration.  The NIC will be bridged to the adapter of your current machine, and it will service incoming requests on this IP.
 
 
 5. Test
