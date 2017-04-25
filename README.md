@@ -17,6 +17,8 @@
 
     * This will configure a new Ubuntu virtual machine with NGINX and the proxy configuration.
     * The NIC will be bridged to the adapter of your current machine, and it will service incoming requests on whatever IP it picks up from DHCP.
+    * When complete, you will see this prompt:
+    ![setup-done](https://github.com/crossan007/SharePoint-Office-16-Claims-Proxy/blob/master/vm-done.PNG)
     
 
 
