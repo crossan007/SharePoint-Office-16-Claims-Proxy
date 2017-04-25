@@ -2,7 +2,7 @@
 
 1. Install [Oracle Virtual Box](https://www.virtualbox.org/) and [Vagrant](https://www.vagrantup.com/).
 
-2. Download all files in this repository.
+2. [Download all files in this repository](https://github.com/crossan007/SharePoint-Office-16-Claims-Proxy/archive/master.zip).
 
 3. Edit your downloaded [vagrant/portal.conf](https://github.com/crossan007/SharePoint-Office-16-Claims-Proxy/blob/master/vagrant/portal.conf).  
 
