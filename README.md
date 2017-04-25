@@ -6,15 +6,15 @@
 
 3. Edit your downloaded [vagrant/portal.conf](https://github.com/crossan007/SharePoint-Office-16-Claims-Proxy/blob/master/vagrant/portal.conf).  
 
-replace &lt;&lt;&lt;WFE1-IP&gt;&gt;&gt; and &lt;&lt;&lt;WFE2-IP&gt;&gt;&gt; with the IP addresses of your SharePoint Web front ends
+    replace &lt;&lt;&lt;WFE1-IP&gt;&gt;&gt; and &lt;&lt;&lt;WFE2-IP&gt;&gt;&gt; with the IP addresses of your SharePoint Web front ends
 
-Replace all instances fo portal.example.com with your SharePoint URL.
+    Replace all instances fo portal.example.com with your SharePoint URL.
 
 4.  Open an administrative command line to the directory you downloaded this repository. 
   
-Run ```vagrant up```
+    Run ```vagrant up```
 
-4-b) This will configure a VM with NGINX and the proxy configuration.  The NIC will be bridged to the adapter of your current machine, and it will service incoming requests on this IP.
+    4-b) This will configure a VM with NGINX and the proxy configuration.  The NIC will be bridged to the adapter of your current machine, and it will service incoming requests on this IP.
 
 
 5. Test
