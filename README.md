@@ -1,3 +1,13 @@
+# Overview
+
+This should alter your environment from a traditional load-balanced WFE layout:
+
+![Traditional](https://github.com/crossan007/SharePoint-Office-16-Claims-Proxy/blob/master/traditional.PNG)
+
+To an additional proxy server in fron of your WFEs:
+
+![Altered](https://github.com/crossan007/SharePoint-Office-16-Claims-Proxy/blob/master/altered.PNG)
+
 # Setting up
 
 1. Install [Oracle Virtual Box](https://www.virtualbox.org/) and [Vagrant](https://www.vagrantup.com/).
