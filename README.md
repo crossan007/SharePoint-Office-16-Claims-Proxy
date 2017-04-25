@@ -2,7 +2,7 @@
 
 1. Install [Oracle Virtual Box](https://www.virtualbox.org/) and [Vagrant](https://www.vagrantup.com/).
 
-2. [Download all files in this repository](https://github.com/crossan007/SharePoint-Office-16-Claims-Proxy/archive/master.zip).
+2. [Download all files in this repository](https://github.com/crossan007/SharePoint-Office-16-Claims-Proxy/archive/master.zip).  Extract the ZIP archive to a directory of your choice.
 
 3. Edit your downloaded [vagrant/portal.conf](https://github.com/crossan007/SharePoint-Office-16-Claims-Proxy/blob/master/vagrant/portal.conf).  
 
@@ -13,9 +13,11 @@
 4.  Open an administrative command line to the directory you downloaded this repository. 
     ![Step4](https://github.com/crossan007/SharePoint-Office-16-Claims-Proxy/blob/master/step3.PNG)
   
-    * Run ```vagrant up```
+    * Run ```vagrant up```  This command will take between 3 and 15 minutes to complete.
 
-    * This will configure a VM with NGINX and the proxy configuration.  The NIC will be bridged to the adapter of your current machine, and it will service incoming requests on this IP.
+    * This will configure a new Ubuntu virtual machine with NGINX and the proxy configuration.
+    * The NIC will be bridged to the adapter of your current machine, and it will service incoming requests on whatever IP it picks up from DHCP.
+    
 
 
 5. Test
