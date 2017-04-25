@@ -2,13 +2,15 @@
 
 1. Install [Oracle Virtual Box](https://www.virtualbox.org/) and [Vagrant](https://www.vagrantup.com/).
 
-2.  Edit [vagrant/portal.conf](https://github.com/crossan007/SharePoint-Office-16-Claims-Proxy/blob/master/vagrant/portal.conf).  
+2. Download all files in this repository.
+
+2. Edit your downloaded [vagrant/portal.conf](https://github.com/crossan007/SharePoint-Office-16-Claims-Proxy/blob/master/vagrant/portal.conf).  
 
 replace &lt;&lt;&lt;WFE1-IP&gt;&gt;&gt; and &lt;&lt;&lt;WFE2-IP&gt;&gt;&gt; with the IP addresses of your SharePoint Web front ends
 
 Replace all instances fo portal.example.com with your SharePoint URL.
 
-3.  Run ```vagrant up```
+3.  Open an administrative command line to the directory you downloaded this repository. Run ```vagrant up```
 
 4. Test
 
