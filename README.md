@@ -10,7 +10,12 @@ replace &lt;&lt;&lt;WFE1-IP&gt;&gt;&gt; and &lt;&lt;&lt;WFE2-IP&gt;&gt;&gt; with
 
 Replace all instances fo portal.example.com with your SharePoint URL.
 
-3.  Open an administrative command line to the directory you downloaded this repository. Run ```vagrant up```
+3.  Open an administrative command line to the directory you downloaded this repository. 
+  
+Run ```vagrant up```
+
+3. b) This will configure a VM with NGINX and the proxy configuration.  The NIC will be bridged to the adapter of your current machine, and it will service incoming requests on this IP.
+
 
 4. Test
 
