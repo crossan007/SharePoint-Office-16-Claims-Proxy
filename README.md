@@ -14,7 +14,7 @@ Replace all instances fo portal.example.com with your SharePoint URL.
   
 Run ```vagrant up```
 
-4. b) This will configure a VM with NGINX and the proxy configuration.  The NIC will be bridged to the adapter of your current machine, and it will service incoming requests on this IP.
+4-b) This will configure a VM with NGINX and the proxy configuration.  The NIC will be bridged to the adapter of your current machine, and it will service incoming requests on this IP.
 
 
 5. Test
