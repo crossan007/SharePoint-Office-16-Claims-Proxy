@@ -24,8 +24,8 @@
 
 5. Test
 
-Configure the hosts file on a testing machine to use the IP address of the NEW VM as your SharePoint URL.
+    Configure the hosts file on a testing machine to use the IP address of the NEW VM as your SharePoint URL.
 
-Attempt accessing a previously unaccessible document - The ADFS login page should work, instead of the NTLM login page
+    Attempt accessing a previously unaccessible document - The ADFS login page should work, instead of the NTLM login page
 
 6.  Update your DNS A records to use the new VM's IP instead of your SharePoint WFE IP.
