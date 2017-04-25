@@ -2,7 +2,7 @@
 
 1. Install Virtual Box and Vagrant.
 
-2.  Edit vagrant/portal.conf.  
+2.  Edit [vagrant/portal.conf](https://github.com/crossan007/SharePoint-Office-16-Claims-Proxy/blob/master/vagrant/portal.conf).  
 
 replace &lt;&lt;&lt;WFE1-IP&gt;&gt;&gt; and &lt;&lt;&lt;WFE2-IP&gt;&gt;&gt; with the IP addresses of your SharePoint Web front ends
 
