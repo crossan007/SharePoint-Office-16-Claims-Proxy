@@ -1,5 +1,9 @@
 # Overview
 
+Proxy document requests from MS Office 2016 for Mac so that ADFS Claims auth works...
+
+[Stack Overflow Discussion Here](https://sharepoint.stackexchange.com/questions/206623/sharepoint-2016-adfs-persistent-cookie-office-client-integration-authent)
+
 This should alter your environment from a traditional load-balanced WFE layout:
 
 ![Traditional](https://github.com/crossan007/SharePoint-Office-16-Claims-Proxy/blob/master/traditional.PNG)
