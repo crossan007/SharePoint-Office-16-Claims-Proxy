@@ -1,3 +1,9 @@
+# Update
+
+This issue appears to have been fixed by [KB3203432](https://support.microsoft.com/en-us/help/3203432/descriptionofthesecurityupdateforsharepointserver2016june13,2017)
+
+ > Administrators who wish to suppress modern authentication with Office 2016 applications can now configure the SPSecurityTokenServiceConfig object when the SuppressModernAuthForOfficeClients property is set to $false.
+
 # Overview
 
 Proxy document requests from MS Office 2016 for Mac so that ADFS Claims auth works...
