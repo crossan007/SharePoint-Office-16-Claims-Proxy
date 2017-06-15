@@ -1,4 +1,4 @@
-# Update
+# Update 6-15-2017
 
 This issue appears to have been fixed by [KB3203432](https://support.microsoft.com/en-us/help/3203432/descriptionofthesecurityupdateforsharepointserver2016june13,2017)
 
